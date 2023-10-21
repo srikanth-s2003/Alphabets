@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: #eee; */
+    /* background: linear-gradient(250deg,purple, blue, black); */
+    background-size: cover;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+}
+h1{
+    /* margin:10px; */
+    text-align: center;
+}
+.container {
+    height: 650px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    border: 5px solid purple;
+    position: relative;
+}
+/* .container .box{
+    
+} */
+.sym {
+    /* height: 20px;
+    width: 20px; */
+    position: absolute;
+    top: 40px;
+    left: 25px;
+}
+h1{
+    color: blue;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width : 600px){
+
+    body{
+        background-color: black;
+        font-size: 30px;
+        color: white;
+        padding: 15px;
+        /* border: 1px solid purple; */
+    }
+    h1{
+        font-size: 40px;
+        font-family:revert;
+        letter-spacing: 2px;
+        text-decoration: blue underline;
+        
+    }
+    .box {
+        height: 60px;
+        width: 60px;
+        margin: 7px;
+        display: inline-block;
+        border: 2px solid purple;
+        position: relative;
+    }
+    .container {
+        height: 100vh;
+        width: auto;
+        border: none;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: absolute;
+    }
+    .sym {
+        /* height: 20px;
+        width: 20px; */
+        position: absolute;
+        top: 24px;
+        left: 14px;
+    }
+}
